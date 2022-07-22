@@ -1,0 +1,95 @@
+/*
+COLOR PALETTE
+https://coolors.co/ffcdb2-ffb4a2-e5989b-b5838d-6d6875
+#f7fff7 - almost white
+#ffcdb2 - apricot
+#ffb4a2 - melon
+#e5989b - pastel pink
+#b5838d - english lavender
+#653e46 - eggplant
+#6d6875 - old lavender
+*/
+
+
+/* Global styles
+-----------------------------------*/
+body {
+    color: #6d6875;
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+img{
+    width:300px;
+}
+a {
+    color: #ffcdb2;
+    text-decoration:none;
+}
+a:hover {
+    text-decoration:underline;
+}
+h1 {
+    font-size: 100px;
+    line-height: 1;
+}
+h2 {
+    font-size: 45px;
+}
+h1, h2 {
+    font-family: 'Handlee', cursive;
+    font-weight: 400;
+    margin: 0;
+}
+.content-wrap {
+    width: 800px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+
+/* Profile
+-----------------------------------*/
+header{
+    background: #b5838d;
+    color: #f7fff7;
+}
+
+/* Projects
+-----------------------------------*/
+.projects {
+    background: #ffcdb2;
+}
+.projects a {
+    color:#6d6875;
+}
+.projects .btn {
+    color: #f7fff7;
+    background: #653e46;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+    display: inline-block;
+}
+.projects .btn:hover {
+    background:rgba(101, 62, 70, 80%);
+}
+
+/* Work Experience
+-----------------------------------*/
+.work-experience {
+    background: #ffb4a2;
+}
+
+/* Education
+-----------------------------------*/
+
+
+/* Contact Info
+-----------------------------------*/
+footer {
+    background: #653e46;
+    color: #f7fff7;
+}
